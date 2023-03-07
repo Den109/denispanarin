@@ -1,4 +1,30 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"); */
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-SemiBold.woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Bold.woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+/* @font-face {
+  font-family: "Boxicons";
+  src: url("../fonts/boxicons.woff2");
+  font-weight: 700;
+  font-style: normal;
+} */
+
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +34,7 @@
   border: none;
   outline: none;
   scroll-behavior: smooth;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif; /*wht's that*/
 }
 
 :root {
@@ -35,6 +61,7 @@ section {
 }
 
 .header {
+  
   position: fixed;
   top: 0;
   left: 0;
@@ -220,7 +247,7 @@ span {
 }
 
 .service-box i {
-  font-size: 7rem;
+  font-size: 6rem;
   color: var(--main-color);
 }
 
