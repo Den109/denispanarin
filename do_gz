@@ -1,0 +1,12 @@
+#!/bin/bash
+for x in `find . -type f -iname '*.js'`
+do
+    /usr/bin/zopfli  -i40 ${x} 
+done
+
+for x in `find . -type f -iname '*.css'`
+do
+
+    /usr/bin/zopfli -i40 ${x}
+done
+

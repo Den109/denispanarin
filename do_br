@@ -1,0 +1,13 @@
+#!/bin/bash
+for x in `find . -type f -iname '*.js'`
+do
+    	/usr/bin/brotli  -q 11 ${x}
+	chmod 644 ${x}.br
+done
+
+for x in `find . -type f -iname '*.css'`
+do
+
+	/usr/bin/brotli -q 11 ${x}
+	chmod 644 ${x}.br
+done
