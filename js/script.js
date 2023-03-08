@@ -52,7 +52,7 @@ console.log('');
 // typed JS
 
 let options = {
-  strings: ["lawyer", "youtuber", "programmer", "english learner", "insurance agent", "real estate agent"],
+  strings: ["a lawyer", "a youtuber", "a programmer", "a real estate agent", "an insurance agent", "an English learner"],
   typeSpeed: 75,
   backSpeed: 40,
   backDelay: 1000,
